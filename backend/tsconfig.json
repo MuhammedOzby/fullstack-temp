@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"baseUrl": "./src",
+		"rootDir": "./src",
+		"lib": ["es2021", "es5", "es6"],
+		"module": "commonjs",
+		"target": "ES5",
+		"moduleResolution": "node",
+		"strictPropertyInitialization": false,
+		"experimentalDecorators": true,
+		"strict": false,
+		"emitDecoratorMetadata": true,
+		"outDir": "../output",
+		"noImplicitAny": false,
+		"noEmitOnError": true,
+		"removeComments": true,
+		"sourceMap": false
+	},
+	"tsc-alias": {
+		"verbose": true,
+		"resolveFullPaths": true
+	},
+	"include": ["src/**/*"],
+	"exclude": ["node_modules", "src/**/*.test.ts", "src/**/*.spec.ts"]
+}
